@@ -8,3 +8,7 @@
 
     sg_id: "sg-01427f0ae0976ef36"
     ami_id: "ami-09c813fb71547fc4f"
+    instances:
+    - mysqlllll
+    - backend
+    - frontend
