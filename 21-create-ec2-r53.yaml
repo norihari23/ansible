@@ -1,0 +1,10 @@
+- name: create ec2 and r53 records
+  hosts: local
+  connection: local
+  # assignment
+  # move this to vars_files
+  vars:
+    subnet_id: "subnet-0e591c1001c6647f8" # replace with your subnet id
+
+    sg_id: "sg-01427f0ae0976ef36"
+    ami_id: "ami-09c813fb71547fc4f"
